@@ -1,0 +1,23 @@
+{
+  "name": "QQ_music",
+  "version": "1.0.0",
+  "description": "这是一个用原生JS开发的移动端音乐APP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yizhihaoren/QQ_music.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "yizhihaoren",
+    "email": "1768438673@qqq.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yizhihaoren/QQ_music/issues"
+  },
+  "homepage": "https://github.com/yizhihaoren/QQ_music#readme"
+}
