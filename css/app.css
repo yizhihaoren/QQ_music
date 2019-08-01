@@ -7,6 +7,11 @@ body {
 h1 {
   margin: 0; }
 
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
 #header {
   display: flex;
   align-items: center;
@@ -22,7 +27,6 @@ h1 {
   width: 100%;
   overflow: hidden; }
   .qq-slider .qq-slider-wrap {
-    width: 400%;
     display: flex; }
   .qq-slider .qq-slider-item {
     flex-basis: 100%; }
@@ -31,6 +35,31 @@ h1 {
       .qq-slider .qq-slider-item > a img {
         width: 100%;
         display: block; }
+
+.navbar {
+  background: #fff; }
+  .navbar .nav-list {
+    display: flex;
+    align-items: center; }
+    .navbar .nav-list .nav-item {
+      flex: 1;
+      cursor: pointer;
+      position: relative;
+      text-align: center;
+      height: 40px;
+      line-height: 40px;
+      color: rgba(0, 0, 0, 0.6); }
+      .navbar .nav-list .nav-item.active {
+        color: #31c27c; }
+      .navbar .nav-list .nav-item.active::after {
+        content: " ";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: #31c27c; }
 
 body {
   background: #f4f4f4; }
