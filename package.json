@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/yizhihaoren/QQ_music/issues"
   },
-  "homepage": "https://github.com/yizhihaoren/QQ_music#readme"
+  "homepage": "https://github.com/yizhihaoren/QQ_music#readme",
+  "dependencies": {}
 }

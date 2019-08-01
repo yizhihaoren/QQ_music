@@ -1,0 +1,13 @@
+.qq-slider {
+  width: 100%;
+  overflow: hidden; }
+  .qq-slider .qq-slider-wrap {
+    width: 400%;
+    display: flex; }
+  .qq-slider .qq-slider-item {
+    flex-basis: 100%; }
+    .qq-slider .qq-slider-item > a {
+      display: block; }
+      .qq-slider .qq-slider-item > a img {
+        width: 100%;
+        display: block; }
